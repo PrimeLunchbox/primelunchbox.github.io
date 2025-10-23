@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "plotly"
 output: 
   html_document:
     toc: true
@@ -7,6 +7,6 @@ output:
     theme: flatly
 ---
 
-# Information about me
+# examples of plotly
 
 老鼠

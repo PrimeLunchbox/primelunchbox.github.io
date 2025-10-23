@@ -4,10 +4,10 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: flatly
 ---
 
-# This is Jeff's awesome website
+# This is a website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
@@ -18,5 +18,9 @@ output:
 ## Local image
 
 ![](images/snow.jpg)
+
+or:
+
+<img src= "images/snow.jpg" style= "width:75%">
 
 [About me](about.html)
