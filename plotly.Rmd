@@ -10,3 +10,23 @@ output:
 # examples of plotly
 
 老鼠
+
+## scatterplot
+
+dataset %>% 
+  plot_ly(x = ~variable, y = ~variable, color = ~variable, text = ~variable, 
+          type = "scatter", mode = "markers")
+          
+## boxplot
+
+dataset %>% 
+  plot_ly(y = ~variable, x = ~variable, color = ~variable, type = "box")
+  
+
+## ggplotly
+
+scatterplot = dataset %>% 
+  ggplot(aes(x = , y = , color = )) + 
+  geom(scatter)
+
+ggplotly(scatterplot)

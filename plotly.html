@@ -358,6 +358,22 @@ div.tocify {
 <div id="examples-of-plotly" class="section level1">
 <h1>examples of plotly</h1>
 <p>老鼠</p>
+<div id="scatterplot" class="section level2">
+<h2>scatterplot</h2>
+<p>dataset %&gt;% plot_ly(x = ~variable, y = ~variable, color =
+~variable, text = ~variable, type = “scatter”, mode = “markers”)</p>
+</div>
+<div id="boxplot" class="section level2">
+<h2>boxplot</h2>
+<p>dataset %&gt;% plot_ly(y = ~variable, x = ~variable, color =
+~variable, type = “box”)</p>
+</div>
+<div id="ggplotly" class="section level2">
+<h2>ggplotly</h2>
+<p>scatterplot = dataset %&gt;% ggplot(aes(x = , y = , color = )) +
+geom(scatter)</p>
+<p>ggplotly(scatterplot)</p>
+</div>
 </div>
 
 
